@@ -4,7 +4,7 @@
   "description": "Wayfind agent skills and MCP server for tokenized stock data, portfolio risk analysis, and Solana token swaps. Trade, rebalance, and manage tokenized equities using Wayfind's data layer and OKX DEX trading tools.",
   "author": {
     "name": "Tamago Labs",
-    "email": "contact@tamago-labs.com"
+    "email": "contact@tamagolabs.com"
   },
   "homepage": "https://wayfind.click",
   "repository": "https://github.com/tamago-labs/wayfind-skills",

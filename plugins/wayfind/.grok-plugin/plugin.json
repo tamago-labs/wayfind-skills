@@ -1,15 +1,19 @@
 {
   "name": "wayfind",
-  "version": "1.0.0",
-  "description": "Wayfind agent skills and MCP server for tokenized stock data, portfolio risk analysis, and Solana token swaps. Trade, rebalance, and manage tokenized equities using Wayfind's data layer and OKX DEX trading tools.",
+  "version": "1.0.1",
+  "description": "Wayfind agent skills and MCP server for tokenized stock data, portfolio risk analysis, and Solana token swaps. Trade, rebalance, and manage tokenized equities using Wayfind's data layer and OKX DEX trading tools. Runs as stdio MCP on the Grok Bot computer; owners set WAYFIND_API_KEY and SOLANA_PRIVATE_KEY in bot env after install.",
   "author": {
     "name": "Tamago Labs",
-    "email": "contact@tamago-labs.com"
+    "email": "pisuth@tamagolabs.com"
   },
   "homepage": "https://wayfind.click",
   "repository": "https://github.com/tamago-labs/wayfind-skills",
   "license": "MIT",
   "mcpServers": "./.grok-plugin/mcp.json",
+  "skills": [
+    "./skills/wayfind/",
+    "./skills/getting-started/"
+  ],
   "keywords": [
     "wayfind",
     "tokenized-stocks",
@@ -19,6 +23,7 @@
     "okx-dex",
     "trading",
     "mcp",
-    "agent-skills"
+    "agent-skills",
+    "grok-bot"
   ]
 }

@@ -6,21 +6,17 @@ Wayfind is the data layer and trading tools for AI agents on Solana tokenized eq
 
 ## How it works
 
-### 1. Build your portfolio
-
-Connect your wallet to discover your tokenized equity holdings, or simulate a portfolio to explore assets without connecting.
-
-### 2. Tell us about you
-
+### 1. Build your risk profile
 Answer a short AI questionnaire about your goals, time horizon, and risk tolerance. Wayfind uses your answers to understand what risk means for you.
 
-### 3. Understand your risk
+### 2. Get your API key
+Your API key links your risk profile to every bot you create. One setup, all your bots trade with your risk context.
 
-AI evaluates your holdings across company fundamentals, market exposure, concentration, liquidity, issuer, and on-chain factors — then gives you a personalized risk score.
+### 3. Set up your bot
+Import a Grok Bot template, set your API key, and create an agentic wallet. Connect your wallet to discover holdings or use a demo account to explore.
 
-### 4. Find your path
-
-Get tailored options to reduce risk, rebalance your portfolio, with direct execution through OKX DEX Router.
+### 4. Schedule rebalancing jobs
+Your bot monitors your portfolio and prepares swap quotes through OKX DEX when positions drift. You review and approve each trade before it executes.
 
 ## Key features
 
@@ -37,18 +33,6 @@ Get tailored options to reduce risk, rebalance your portfolio, with direct execu
 | Base tokens | Native and stablecoins | SOL, USDC, USDT, USDG |
 | RWA stocks | Tokenized real-world equities | TSLAx (Tesla), SPCXx (SpaceX) |
 | Pre-IPO | Pre-IPO market tokens | ANDURil (Anduril) |
-
-## Pricing
-
-Wayfind is currently free. Planned usage-based AI credits:
-
-| Plan | Price | Credits |
-|------|-------|---------|
-| Starter | $5 | 1,000 |
-| Pro | $20 | 5,000 |
-| Power | $50 | 15,000 |
-
-Priced in USD, payable in stablecoins. Credits never expire.
 
 ## Supported networks
 
